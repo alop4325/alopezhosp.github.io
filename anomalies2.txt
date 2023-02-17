@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            min-height: 100vh;
+            margin: 0 auto;
+            background-color: rgb(32, 33, 36);}
+                    .c{font:right}
+        footer{background-color: rgb(165, 25, 67);}
+        .t{border: 1px solid white;
+        margin:center;
+        }
+        .t td, th{border: 1px solid white;
+            color: white;}
+
+        .power{text-align:center; margin: 20px;}
+
+        .text{float:right; border:5px solid green; margin-top:30px; max-width: 1300px;}
+
+        .subtitle{font-size:25px; color:aliceblue;}
+        
+        .left{float:left; margin-right: 50px; display:block;
+        margin-left: 30px; max-width:900px ;}
+        
+        .t{float:right}
+
+        .more{float:left; border:5px solid green; margin-top:30px; color:whitesmoke;
+        font-family: montserrat;}
+
+        .ref{overflow:visible}
+
+        .tex{font-family: Arial; color:white}
+
+        .p1{float:left;}
+
+        
+    </style>
+</head>
+<body>
+<footer><img src="hosp.png"><img class="c" src="classified.png"></footer>
+<div class="text">
+<br>
+<div class="left">
+<div class="subtitle"><hr></div>
+<br> 
+<div class="subtitle"><hr>Habilities</div>
+<div class="tex">  </a> 
+</div>
+<br>
+<div class="subtitle"><hr>Description</div>
+<div class="tex">
+</div><br>
+<div class="subtitle">Images<hr></div>
+<div class="subtitle">Videos
+<hr>
+<div class="tex"></div>
+<video controls width="180px">
+
+</video>
+</div>
+</div>
+<table class="t">
+<tr>
+    <td>
+
+    </td>
+</tr>
+<tr>
+    <td>
+
+    </td>
+</tr>
+<tr>
+    <td>
+
+    </td>
+</tr>
+<tr>
+    <td>
+
+    </td>
+</tr>
+<tr>
+    <td>
+
+    </td>
+</tr>
+<tr>
+    <td>
+
+    </td>
+</tr>
+<tr>
+    <td>
+
+    </td>
+</tr>
+
+</table>
+</div>
+<div class="more"><h1><u>More:</u></h1>
+<label>
+<ul class="ref">
+<li><a href="">More anomalies</a></li>
+<li><a href="">Entities</a></li>
+<li><a href="">Sponsors</a></li>
+<li><a href="">Our shop</a></li>
+</ul>
+</label>
+</div>
+</body>

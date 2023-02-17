@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+   
+   @font-face{font-family:pressstart2p;
+    src:url(PressStart2P-Regular.ttf)
+    }
+    body{
+     min-height:100vh;
+     margin:  0 auto; 
+     background-color: rgb(32, 33, 36);
+    }
+    ul
+    {
+    margin:0;
+    padding:3px;
+    list-style:none;
+    overflow:hidden;
+    background-color:#182e49;
+    height: 25px;
+    }
+    li{
+    float:left;
+    }
+    
+    li a
+    {
+    display: inline;
+    text-align: center;
+    padding:20px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    color:aliceblue;
+   }
+
+    .warning{
+    font-family:pressstart2p;
+    color:white;
+    text-align: center;
+    border:3px solid black;
+    margin-left: 400px;
+    margin-right: 400px;
+    overflow: hidden;
+    background-color:black;
+    }
+    li a:link{text-decoration:none; color:aliceblue}
+    li a:hover{text-decoration:none; background-color:rgb(184, 201, 184);}
+
+    footer{background-color:#12dd99;}
+
+    .coffee{
+    float:right;
+    bottom: 0;
+    margin-right:5px;
+    color:white;
+    position:sticky}
+
+    .coffee a:link{text-decoration: none;}
+
+    .coffee img{width: 2em; height: 2em}
+
+    .coffee{background-color:azure;
+    width:200px}
+
+    .c{font:right}
+
+    .searchbar{float:right;
+    margin-top: 162px;
+    border:none;
+    }
+    .searchbar input[type=text]{font-size:23px;
+    border:none;
+    font-family: sans-serif;}
+
+    .searchbar button {font-size: 20px;
+    border:none;
+    cursor:pointer;
+    display: block;
+    margin-top: 0px;
+    margin-right: 16px;
+    float:right;
+    padding: 3px 5px;
+    }
+
+    .hosper{float:left}
+    .hosper img{width:300px; height:300px}
+    </style>
+</head>
+    <body>
+        <footer><img src="hosp.png"><img class="c" src="classified.png"> 
+        <div class="searchbar">
+            <form action="/action_page.php">
+            <input type="text" placeholder="Search..." name="search">   
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        </form></footer>
+       
+
+        
+            <ul>
+                <li><a href="home.html">Entities</a></li>
+                <li><a href="services.html">Backplaces</a></li>
+                <li><a href="Anomalies.html">Anomalies</a></li>
+                <li><a href="">incidents</a></li>
+                <li><a href="support.html">About us</a></li>
+            </ul>
+        <br><br>
+        <div class="warning">Warning <br>
+        this information is confidential and it's <br> only for authorised staff
+        </div>
+        <div class="hosper"><img src="hosper.png"></div>
+        <div class="coffee"><a href="https://ko-fi.com/andrylop">Buy me a coffee</a><br><img src="coffee.png"></div>
+    </body>
+</html>

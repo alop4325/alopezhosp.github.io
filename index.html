@@ -87,6 +87,28 @@
 
     .hosper{float:left}
     .hosper img{width:300px; height:300px}
+
+.des {
+  display: none;
+  position: absolute;
+  background-color:#182e49;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.des a {
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    padding:12px 16px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    color:aliceblue;
+}
+.des a:link{text-decoration:none; color:aliceblue}
+.des a:hover{text-decoration:none; background-color:rgb(184, 201, 184);}
+li:hover .des{display:block;}
     </style>
 </head>
     <body>
@@ -101,9 +123,24 @@
 
         
             <ul>
-                <li><a href="entities.html">Entities</a></li>
-                <li><a href="backplaces.html">Backplaces</a></li>
-                <li><a href="Anomalies.html">Anomalies</a></li>
+                <li><a href="entities.html">Entities</a>
+                <div class="des">
+                    <a href="isabel.html">E-hop02</a>
+                    <a href="">E-hop011</a>
+                    <a href="">E-hop012</a>
+                </div></li>
+                <li><a href="backplaces.html">Backplaces</a>
+                <div class="des">
+                    <a href="marinasdor.html">B-hop02</a>
+                    <a href="murcia.html">B-hop011</a>
+                    <a href="">B-hop012</a>
+                </div></li>
+                <li><a href="Anomalies.html">Anomalies</a>
+                <div class="des">
+                    <a href="Anomaliest1.html">A-hop02</a>
+                    <a href="OsyModel.html">A-hop011</a>
+                    <a href="">B-hop012</a>
+                </div></li>
                 <li><a href="">incidents</a></li>
                 <li><a href="support.html">About us</a></li>
             </ul>

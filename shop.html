@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
+<title>hosp project</title>
     <head>
+<link rel="icon" type="image/png" href="icon.png" size="16x16">
         <style>
             body {
             min-height: 100vh;
@@ -11,13 +13,70 @@
             float: right; 
         }
 
-        footer{background-color: orange;}
+            .tex {
+            font-family: Arial;
+            color: white
+        }
+
+                .tex2 {
+            font-family: Arial;
+            color: white;
+            font-weight: bold
+        }
+
+            td .bc {width: 250px; 
+            height: 250px;}
+
+            .price{color:white;
+            font-family: Arial}
+
+            footer{background-color: orange;}
+
+            .buyit table{float:center}
         </style>
     </head>
     <body>
     <footer><img src="hosp.png"><img class="c" src="classified.png"><img class="sh" src="shop.png"></footer>
     <div class="buyit">
-        
+      <table>
+        <tr>
+            <td><img class="bc" src="eneryeti.jpeg">
+            <div class="price">0.99€</div>
+            <div class="tex2">Coconut Eneryeti</div>
+            <div class="tex">Amount: <input type="text"></div>
+            <div class="button"><button type="submit">Buy it </button></div></td> 
+            <td><img class="bc" src="murciamap.webp">
+            <div class="price">0.50€</div>
+            <div class="tex2">Murcia map</div>
+            <div class="tex">Amount: <input type="text"></div>
+            <div class="button"><button type="submit">Buy it </button></div>
+            </td>
+            <td>
+            <img class="bc" src="cap.webp">
+            <div class="price">14.99€</div>
+             <div class="tex2">NPC cap</div>
+             <div class="tex">Amount: <input type="text"></div>
+             <div class="button"><button type="submit">Buy it </button></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <img class="bc" src="jersey.webp">
+            <div class="price">29.99€</div>
+            <div class="tex2">NPC hoddie</div>
+            <div class="tex">Amount: <input type="text"></div>
+            <div class="button"><button type="submit">Buy it </button></div></td>
+            <td>
+                <img class="bc" src="nbq.webp">
+                <div class="price">159,99€</div>
+                <div class="tex2">Nbq suit</div>
+                <div class="tex">Amount: <input type="text"></div>
+                <div class="button"><button type="submit">Buy it </button></div>
+            </td>
+            <td></td>
+        </tr>
+      </table>  
     </div>
+    <div class="button"><button type="submit"><a href="index.html">Official site</a></button></div>
     </body>
 </html>

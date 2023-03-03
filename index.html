@@ -1,9 +1,29 @@
 <!DOCTYPE html>
 <html>
+<title>hosp project</title>
 <head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="icon.png" size="16x16">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+    <style>  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+
    
    @font-face{font-family:pressstart2p;
     src:url(PressStart2P-Regular.ttf)
@@ -12,6 +32,7 @@
      min-height:100vh;
      margin:  0 auto; 
      background-color: rgb(32, 33, 36);
+     background-image: url(Mistery.jpg);
     }
     ul
     {
@@ -66,25 +87,7 @@
     width:200px}
 
     .c{font:right}
-
-    .searchbar{float:right;
-    margin-top: 162px;
-    border:none;
-    }
-    .searchbar input[type=text]{font-size:23px;
-    border:none;
-    font-family: sans-serif;}
-
-    .searchbar button {font-size: 20px;
-    border:none;
-    cursor:pointer;
-    display: block;
-    margin-top: 0px;
-    margin-right: 16px;
-    float:right;
-    padding: 3px 5px;
-    }
-
+    
     .hosper{float:left}
     .hosper img{width:300px; height:300px}
 
@@ -109,15 +112,18 @@
 .des a:link{text-decoration:none; color:aliceblue}
 .des a:hover{text-decoration:none; background-color:rgb(184, 201, 184);}
 li:hover .des{display:block;}
+
+ .name{font-size:small;
+            color:black;
+            font-family: arial;
+            }
+  
+.button{margin-top:1000px}
     </style>
 </head>
     <body>
         <footer><img src="hosp.png"><img class="c" src="classified.png"> 
-        <div class="searchbar">
-            <form action="/action_page.php">
-            <input type="text" placeholder="Search..." name="search">   
-            <button type="submit"><i class="fa fa-search"></i></button>
-        </div>
+          <div class="name">Andrés López Bolaños</div>
         </form></footer>
        
 
@@ -126,23 +132,24 @@ li:hover .des{display:block;}
                 <li><a href="entities.html">Entities</a>
                 <div class="des">
                     <a href="isabel.html">E-hop02</a>
-                    <a href="">E-hop011</a>
-                    <a href="">E-hop012</a>
+                    <a href="confidencial.html">E-hop011</a>
+                    <a href="confidencial.html">E-hop012</a>
                 </div></li>
                 <li><a href="backplaces.html">Backplaces</a>
                 <div class="des">
-                    <a href="marinasdor.html">B-hop02</a>
+                    <a href="confidencial.html">B-hop02</a>
                     <a href="murcia.html">B-hop011</a>
-                    <a href="">B-hop012</a>
+                    <a href="confidencial.html">B-hop012</a>
                 </div></li>
                 <li><a href="Anomalies.html">Anomalies</a>
                 <div class="des">
                     <a href="Anomaliest1.html">A-hop02</a>
                     <a href="OsyModel.html">A-hop011</a>
-                    <a href="">B-hop012</a>
+                    <a href="confidencial.html">A-hop012</a>
                 </div></li>
-                <li><a href="">incidents</a></li>
-                <li><a href="support.html">About us</a></li>
+                <li><a href="webconstruction.html">incidents</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
             </ul>
         <br><br>
         <div class="warning">Warning <br>
@@ -150,5 +157,6 @@ li:hover .des{display:block;}
         </div>
         <div class="hosper"><img src="hosper.png"></div>
         <div class="coffee"><a href="https://ko-fi.com/andrylop">Buy me a coffee</a><br><img src="coffee.png"></div>
+        <div class="button"><button type="submit"><a href="index.html">Official site</a></button></div>
     </body>
 </html>
